@@ -1,4 +1,16 @@
-1.
+# 1.  這次import到的套件有
+- pandas --用於讀取、處理數據
+- numpy--用於蒐集資料的處理
+- requests--用於網頁爬蟲 
+- bs4--用於網頁爬蟲     
+- urllib.request--用於網頁爬蟲
+- os--用於處理電腦內部的資料
+- pyquery--用於網頁爬蟲
+- pickle-用於文件的處理
+- selenium--用於模擬人來爬取網頁
+- datetime--用於訂定爬取時間
+- time--用於訂定爬蟲中休息間隔
+- calendar--用於訂定年份
 
 
 
