@@ -1,4 +1,4 @@
-# 1.  這次import到的套件有
+1.  這次import到的套件有
 - pandas --用於讀取、處理數據
 - numpy--用於蒐集資料的處理
 - requests--用於網頁爬蟲 
