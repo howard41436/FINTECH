@@ -13,7 +13,7 @@
 
 在本次報告中，公司的部分我們選擇了130家科技產業的公司，財報資料皆取2000~2009年這10年的10-Q資料各3篇，共30篇。財報資料中我們使用的變數為情緒分數，負債比，及ROA。情緒分數部分取自University of Notre Dame的Loughran-McDonald 10X File summaries，取了8種情緒分數。負債比部分…，資產報酬率部分…。市場表現的部分，我們的衡量基準為同期間內該公司股票相對於MSCI大盤的報酬率。
 
-相關的檔案：[final_crawl.ipynb](#https://github.com/howard41436/FINTECH/blob/master/final/final_crawl.ipynb), [add_return_rate.ipynb](#https://github.com/howard41436/FINTECH/blob/master/final/add_return_rate.ipynb), [ROA.ipynb](# https://github.com/howard41436/FINTECH/blob/master/final/ROA.ipynb)
+相關的檔案：[final_crawl.ipynb](https://github.com/howard41436/FINTECH/blob/master/final/final_crawl.ipynb), [add_return_rate.ipynb](https://github.com/howard41436/FINTECH/blob/master/final/add_return_rate.ipynb), [ROA.ipynb](https://github.com/howard41436/FINTECH/blob/master/final/ROA.ipynb)
 
 #### 2. 計算樂觀度
 
@@ -21,11 +21,13 @@
 
 最後決定的組合式使用10維的$A$（8種情緒分數加上負債比和資產報酬率）配上加上正規化的線性迴歸模型，以及$K=13$（也就是每一份為10家公司），來去計算樂觀度。
 
-相關的檔案：[train_model3](# https://github.com/howard41436/FINTECH/blob/master/final/train_model3.ipynb) (train_model, train_model2也是，不過不是最終使用的), [train_dnn.py](# https://github.com/howard41436/FINTECH/blob/master/final/train_dnn.py), [train_rnn.py](# https://github.com/howard41436/FINTECH/blob/master/final/train_rnn.py) (最後也沒有使用這兩個模型，不過中途嘗試過)
+相關的檔案：[train_model3](https://github.com/howard41436/FINTECH/blob/master/final/train_model3.ipynb) (train_model, train_model2也是，不過不是最終使用的), [train_dnn.py](https://github.com/howard41436/FINTECH/blob/master/final/train_dnn.py), [train_rnn.py](https://github.com/howard41436/FINTECH/blob/master/final/train_rnn.py) (最後也沒有使用這兩個模型，不過中途嘗試過)
 
 #### 3. 計算指標
 
 我們計算指標的方式是直接取該公司財報樂觀度和其市場表現的相關係數，市場表現的部分是以同期間內該公司股票相對於MSCI大盤的報酬率，期間是取財報釋出後三天至下一個財報釋出的三天前。
+
+相關的檔案：[train_model3](https://github.com/howard41436/FINTECH/blob/master/final/train_model3.ipynb) 
 
 #### 4. 高財報信心公司列表
 
