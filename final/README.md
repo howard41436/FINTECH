@@ -1,6 +1,6 @@
 ##  財報透明度分析_以美國資訊科技股為例
 
-#### 影片連結(https://youtu.be/udYcKDBXgzY)
+#### [影片連結](https://youtu.be/udYcKDBXgzY)
 
 #### [網站連結](https://hackmd.io/Fd5kzJiEQKKenUZw_GKUeQ?view)
 #### 動機
